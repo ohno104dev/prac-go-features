@@ -10,7 +10,7 @@ import (
 func main() {
 	LoopVar()
 	LoopIntRange()
-	SlicesFormal()
+	SlicesConcat()
 	HttpService()
 }
 
@@ -38,7 +38,7 @@ func LoopIntRange() {
 	}
 }
 
-func SlicesFormal() {
+func SlicesConcat() {
 	arr1 := []int{1, 2, 3}
 	arr2 := []int{4, 5, 6}
 	arr3 := []int{7, 8, 9}
